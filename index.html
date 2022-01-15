@@ -19,9 +19,9 @@
 
 <body>
     <!-- Header -->
-    <div id="header">
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
+    <div id="header" >
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <div class="container-fluid px-4">
                 <a class="navbar-brand">
                     <img src="./assets/images/rstore-icon.png" alt="LOGO" />
                 </a>
@@ -90,7 +90,7 @@
                     <div id="newProduct">
                         <h4>New Products</h4>
                         <div class="row">
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3 ">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-1.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -106,7 +106,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-2.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -122,7 +122,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-3.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -138,7 +138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-4.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -154,7 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-5.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -170,7 +170,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12 product-item">
+                            <div class="col-md-4 col-sm-6 col-12 product-item mt-3">
                                 <div class="card border-0">
                                     <img src="./assets/images/product-6.png" class="card-img" alt="PRODUCT 3" />
                                     <div class="card-body p-0">
@@ -191,15 +191,59 @@
 
                         </div>
                     </div>
-
+                    <!-- Using javascript -->
                     <div id="womanProduct"></div>
+                    <div id="menProduct"></div>
                 </div>
+                 
+
+                
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <div id="footer">Footer</div>
+    <div class="bg-light mt-3" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="./assets/images/rstore-icon.png" alt="Logo">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 footer-item m-0" id="about">
+                            <h5>About</h5>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Contact us</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Legal</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Term</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Policy</a></p>
+                        </div>
+                        <div class="col-md-3 footer-item m-0" id="compare">
+                            <h5>Compare</h5>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">HackerRank</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">DevSkill</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">InterviewMocha</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">eSkill</a></p>
+                        </div>
+                        <div class="col-md-3 footer-item m-0" id="product">
+                            <h5>Product</h5>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Pricing</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Tour</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer">Support</a></p>
+                        </div>
+                        <div class="col-md-3 footer-item m-0" id="link">
+                            <h5>Link</h5>
+                            <p><a href="http://" target="#" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i> Facebook</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer"><i class="fab fa-twitter"></i> Twitter</a></p>
+                            <p><a href="http://" target="#" rel="noopener noreferrer"><i class="fab fa-youtube"></i> Youtube</a></p>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Lodash -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
